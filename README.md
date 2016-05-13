@@ -26,7 +26,7 @@ Build client typescript files.
 npm run build
 ```
 
-Serve the application with express server/.
+Serve the application with express server.
 ```
 npm start
 ```
