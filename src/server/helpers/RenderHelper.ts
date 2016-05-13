@@ -1,6 +1,6 @@
 import { routes } from '../../universal/routes';
 
-export const matchGenerator = function (req) {
+export const matchRoute = function (req) {
     return { routes: routes, location: req.originalUrl };
 };
 

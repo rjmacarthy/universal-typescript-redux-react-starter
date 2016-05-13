@@ -15,7 +15,7 @@ export default class IndexController {
     public static store = store(false, initialState);
 
     public static render(req: express.Request, res: express.Response, next: Function): void {
-        match(RenderHelper.matchGenerator(req), IndexController.matchCallback(res));
+        match(RenderHelper.matchRoute(req), IndexController.matchCallback(res));
     }
 
     public static matchCallback(res) {
