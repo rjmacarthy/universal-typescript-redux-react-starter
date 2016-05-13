@@ -1,7 +1,7 @@
 
-# A Universal React, Redux and Typescript Seed
+# A Universal React, Redux and Typescript Starter
 
-A universal React, Redux and Typescript seed application.
+A universal React, Redux and Typescript starter application.
 
 Built by rjmacarthy: https://www.cryptogrind.com
 
