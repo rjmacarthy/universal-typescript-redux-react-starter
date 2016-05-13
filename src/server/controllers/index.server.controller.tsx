@@ -11,11 +11,11 @@ const initialState = {
     reducer : true
 };
 
-export default class CatchAllController {
+export default class IndexController {
     public static store = store(false, initialState);
 
     public static render(req: express.Request, res: express.Response, next: Function): void {
-        match(RenderHelper.matchGenerator(req), CatchAllController.matchCallback(res));
+        match(RenderHelper.matchGenerator(req), IndexController.matchCallback(res));
     }
 
     public static matchCallback(res) {
@@ -27,7 +27,7 @@ export default class CatchAllController {
             } else if (renderProps) {
                 renderProps.createElement = React.createElement;
                 res.status(200).send(RenderHelper.renderFullPage(renderToString(
-                    <Provider store={CatchAllController.store}>
+                    <Provider store={IndexController.store}>
                         <RouterContext {...renderProps} />
                     </Provider>
                 ), initialState));
