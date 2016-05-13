@@ -31,7 +31,7 @@ Serve the application with express server/.
 npm start
 ```
 
-Application will be served at: `127.0.0.1:3000`
+Application will be served at: `localhost:3000`
 
 ## Contributing
 
