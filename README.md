@@ -3,6 +3,8 @@
 
 A universal React, Redux and Typescript starter application.
 
+Universal react and redux starters are often complicated and annoying to understand, this one shouldn't be.  It's bare bones and only has what it needs to have to work.  Reducers, actions and components have been left blank on purpose.
+
 Built by rjmacarthy: https://www.cryptogrind.com
 
 ## Installation
@@ -37,7 +39,7 @@ Application will be served at: `localhost:3000`
 
 Email : richardmacarthy@hotmail.com
 
-Website : www.cryptogrind.com
+Submit PR
 
 ## Issues
 
